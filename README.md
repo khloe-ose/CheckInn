@@ -223,13 +223,3 @@ Analytics:
 4. Provision a MySQL database or connect an external MySQL instance.
 5. Run `server/database/schema.sql` and `server/database/seed.sql` against the production database if sample data is needed.
 6. Set `CLIENT_URL` to the deployed Vercel frontend URL.
-
-## Future Improvements
-
-- Camera-based QR scanning with a browser QR reader
-- Email delivery for QR tickets and certificates
-- Certificate template editor
-- Event waitlists when capacity is reached
-- Audit trail for admin user changes
-- Multi-organization support with branded public pages
-- Automated tests for API authorization and attendance workflows
