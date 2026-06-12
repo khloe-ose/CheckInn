@@ -1,0 +1,16 @@
+{
+  "name": "checkinn",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Full-stack event registration and QR attendance management system.",
+  "scripts": {
+    "install:all": "npm install --prefix client && npm install --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "local:start": "zsh scripts/local-start.sh",
+    "local:stop": "zsh scripts/local-stop.sh",
+    "local:status": "zsh scripts/local-status.sh",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server"
+  }
+}
